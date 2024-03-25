@@ -19,8 +19,8 @@ public class HospitalApplication implements CommandLineRunner {
 
 	@Override
 	public void run(String... args) throws Exception {
-		patientRepository.save(new Patient(null, "Mohamed", new Date(), false, 34));
+		patientRepository.save(new Patient(null, "Mohamed", new Date(), false, 340));
 		patientRepository.save(new Patient(null, "adil", new Date(), false,431));
-		patientRepository.save(new Patient(null, "ayoub", new Date(), true, 24));
+		patientRepository.save(new Patient(null, "ayoub", new Date(), true, 240));
 	}
 }
